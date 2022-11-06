@@ -3,6 +3,6 @@
 ![alt text](https://github.com/saber1in/PortfolioSite/blob/master/preview/preview.png?raw=true)
 
 
-Stack: Docker/PHP/MySQL/HTML/CSS/Bootstrap 5
+Stack: Docker/PHP/MySQL/HTML/CSS
 
 После поднятия контейнеров, выполнить SQL скрипт с папки dump в phpmyadmin, чтобы создать базу данных и таблицу, для успешной проверки подключения. (p.s. докер должен был сам выполнить все скрипты находящиеся в папке ./dump/, вероятно не так настроил.)

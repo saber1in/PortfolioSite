@@ -1,0 +1,43 @@
+/*----->  W I D E  S C R E E N  <-----*/
+@media screen and (max-width: 1440px) {
+
+    #social-line{
+        height: 130px;
+    }
+
+    .social-link svg{
+        width: 24px;
+        height: 24px;
+        margin-top: 18px;
+    }
+
+}
+
+
+/*----->  L G  <-----*/
+@media screen and (max-width: 1024px) {
+
+
+    .social-link svg{
+        margin-top: 15px;
+    }
+}
+
+
+/*----->  M D  <-----*/
+@media screen and (max-width: 768px) {
+
+    #social-line{
+        height: 50px;
+    }
+
+    #header-social{
+        padding: 10px 15px;
+    }
+
+    .social-link svg{
+
+        margin-top: 10px;
+    }
+
+}

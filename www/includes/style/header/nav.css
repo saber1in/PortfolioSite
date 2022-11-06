@@ -1,0 +1,47 @@
+#header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+#nav-logo{
+    display: flex;
+    align-items: center;
+}
+
+#nav-logo b{
+    color: #ABB2BF;
+    font-size: 2em;
+    font-family: 'Jost', sans-serif;
+}
+
+#nav-logo svg{
+    width: 32px;
+    height: 32px;
+    fill: #ABB2BF;
+}
+
+
+
+
+#nav-menu{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+
+#nav-menu li a{
+    color: #ABB2BF;
+    margin-left: 32px;
+}
+
+#nav-menu li a:hover{
+    color: white;
+}
+
+#nav-menu li a span{
+    color: #C778DD;
+}

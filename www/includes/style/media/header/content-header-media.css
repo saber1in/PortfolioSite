@@ -1,0 +1,150 @@
+/*----->  W I D E  S C R E E N  <-----*/
+@media screen and (max-width: 1440px) {
+
+    #header-left h1{
+        font-size: 1.6em;
+    }
+    #header-left p{
+        font-size: 0.8em;
+        margin-top: 15px;
+        margin-bottom: 40px;
+    }
+    #header-button{
+        font-size: 0.8em;
+    }
+
+
+    #header-image img{
+        width: 350px;
+        height: auto;
+    }
+    #header-description{
+        font-size: 0.8em;
+    }
+    #header-description div{
+        width: 12px;
+        height: 12px;
+    }
+
+}
+
+/*----->  L G  <-----*/
+@media screen and (max-width: 1024px) {
+
+    #content-header{
+        margin-top: 50px;
+    }
+
+    #header-left h1{
+        font-size: 1.3em;
+    }
+    #header-left p{
+        font-size: 0.65em;
+        line-height: 1.4em;
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+    #header-button{
+        font-size: 0.7em;
+        padding: 6px 8px;
+    }
+
+
+    #header-image img{
+        width: 250px;
+        height: auto;
+    }
+    #header-description{
+        font-size: 0.65em;
+    }
+    #header-description div{
+        width: 10px;
+        height: 10px;
+    }
+
+}
+
+
+/*----->  M D  <-----*/
+@media screen and (max-width: 768px) {
+
+    #content-header {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #header-left h1{
+        font-size: 1.1em;
+    }
+
+    #header-left p{
+        font-size: 0.5em;
+        line-height: 1.3em;
+
+    }
+    #header-button{
+        font-size: 0.6em;
+        padding: 5px 6px;
+    }
+
+
+    #header-image img{
+        width: 200px;
+        height: auto;
+    }
+    #header-description{
+        font-size: 0.45em;
+        padding: 3px 5px;
+
+    }
+
+}
+
+
+/*----->  S M  <-----*/
+@media screen and (max-width: 480px) {
+
+    #content-header{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #header-left{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #header-left h1{
+        font-size: 1.5em;
+        text-align: left;
+    }
+
+    #header-left p{
+        max-width: 85%;
+        font-size: 0.7em;
+    }
+
+    #header-button{
+        font-size: 0.8em;
+        padding: 8px 10px;
+    }
+
+
+
+    #header-image img{
+        width: 250px;
+        height: auto;
+    }
+    #header-description{
+        font-size: 0.5em;
+
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+
+
+
+}

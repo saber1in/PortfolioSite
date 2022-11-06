@@ -34,7 +34,6 @@
         require 'includes/html/header/nav.html';
         require 'includes/html/header/content-header.html';
 
-
         ?>
 
     </div>

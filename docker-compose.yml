@@ -2,13 +2,10 @@ version: "3.1"
 services:
     db:
         image: mysql
-        ports: 
-            - "3306:3306"
-        command: --default-authentication-plugin=mysql_native_password
         environment:
-            MYSQL_DATABASE: WebPortfolioData
-            MYSQL_PASSWORD: test
-            MYSQL_ROOT_PASSWORD: test 
+            MYSQL_DATABASE: PortfolioData
+            MYSQL_PASSWORD: your_pass_to_db
+            MYSQL_ROOT_PASSWORD: your_pass_to_db
         volumes:
             - ./dump:/docker-entrypoint-initdb.d
             - ./conf:/etc/mysql/conf.d
@@ -17,7 +14,7 @@ services:
             - default
     www:
         build: .
-        ports: 
+        ports:
             - "80:80"
         volumes:
             - ./www:/var/www/html
@@ -27,13 +24,13 @@ services:
             - default
     phpmyadmin:
         image: phpmyadmin/phpmyadmin
-        links: 
+        links:
             - db:db
         ports:
-            - 8000:80
+            - "8000:80"
         environment:
             MYSQL_USER: root
-            MYSQL_PASSWORD: test
-            MYSQL_ROOT_PASSWORD: test 
+            MYSQL_PASSWORD: your_pass_to_db
+            MYSQL_ROOT_PASSWORD: your_pass_to_db
 volumes:
     persistent:
